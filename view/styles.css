@@ -1,0 +1,68 @@
+.form {
+    font-family: Arial, sans-serif;
+}
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.avatar {
+    widt: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+.introduction-all {
+    margin-left: 120px;/*文字位置*/
+}
+
+.introduction-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.introduction-content {
+    line-height: 1.6;
+}
+body {
+    background: url('../image/BG.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0; /* 移除默认边距 */
+    padding: 0; /* 移除默认填充 */
+    display: flex; /* 使用弹性盒模型 */
+    flex-direction: column; /* 垂直排列子元素 */
+    height: 100vh; /* 视口高度 */
+  }
+  footer {
+    margin-top: auto; /* 将页脚推到视口底部 */
+    width: 100%; /* 页脚宽度与视口宽度一致 */
+    text-align: center; /* 文本居中 */
+    padding: 10px 0; /* 上下填充 */
+    background-color: #0d78cf; /* 页脚背景颜色 */
+    border-top: 1px solid #0a71e0; /* 上边框 */
+    font-size: 0.875em; /* 字体大小 */
+    color: aqua; /* 字体颜色 */
+  }
+  .home-button {
+    /*position: fixed;
+    bottom: 2px;
+    right: 20px;*/
+    padding: 20px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none; /* 移除链接下划线 */
+  }
+
+  .home-button:hover {
+    background-color: #0cf378; /* 鼠标悬停时的背景颜色 */
+
+  }
